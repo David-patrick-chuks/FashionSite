@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* 
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(image/preload.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    background-size: 6%;
+    transition: visibility 2s, opacity 2s;
+}
+
+#loader--hidden{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    display: flex;
+    padding: 25px 70px;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+
+}
+.restnav{
+    display: flex;
+    gap: 40px;
+}
+.navlist{
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    gap: 40px;
+    align-items: center;
+    font-size: 22px;
+    list-style: none;
+    
+}
+
+.restnav button{
+    border: none;
+    color: white;
+    background-color: black;
+    width: 134px;
+    border-radius: 7px;
+    height: 62;
+    font-size: 24px;
+    
+}
+.head{
+    padding: 30px 70px 10px 70px;
+
+}
+
+.hero{
+    background-color:#F4F6F5;
+    padding: 80px 0px 0px 0px;
+    width: auto;
+    overflow: hidden;
+    height: 650px;
+    border-radius: 59px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.heroimage{
+    position: relative;
+    /* background-image: url(image/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview\ 1.png); */
+}
+.heroimage img{
+    width: 650px;
+    justify-self: end;
+    display: flex;
+    
+}
+
+
+.topr img{
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.top img{
+    width: 30PX;
+    position: absolute;
+    
+}
+
+.bottom img{
+    width: 30px;
+    position: absolute;
+    
+}
+
+.bottomr img{
+    width: 30px;
+    position: absolute;
+    
+}
+
+
+
+
+
+
+
+.herobtn{
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    
+    align-items: center;
+}
+.herobtn img{
+    width: 100px;
+    height: 25px;
+}
+
+.herobtn button{
+    border: none;
+    color: white;
+    background-color: black;
+    width: 125px;
+    border-radius: 7px;
+    height: 50px;
+    font-size: 18px;
+    
+    
+    
+}
+
+.white{ 
+    background-image: url(image/Rectangle\ 3.png);
+    display: flex;
+    /* background-position-x: 10px 40px; */
+    width: 350px;
+    background-repeat: no-repeat;
+    
+
+    
+}
+.white1{
+    background-image: url(image/gold.png);
+    display: flex;
+    width: 400px;
+    
+    /* background-position: 50px; */
+
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+      
+}
+.herotext span{
+    padding-left: 20px;
+}
+.herotext h1{
+    
+    line-height: 100px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.herotext h5{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+.all{
+    display: flex;
+    padding: 20px 70px;
+    justify-content: space-between;
+}
+.box{
+    overflow: hidden;
+}
+#bb img{
+    width: 675px;
+}
+.boximg img{
+    width: 420px;
+    margin-bottom: 20px;
+}
+
+.boxcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxcontent h4{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+}
+.boxcontent h6{
+    font-size: 18px;
+    color: 
+    #7F7F7F;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+/* logooooo */
+
+.logos{
+    display: flex;
+    background-color: #EBD96B;
+    padding: 35px 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0px;
+}
+
+.logoimg{
+    display: flex;
+    gap: 60px;
+
+}
+.logoimg img{
+    width: 150px;
+    height: 45px;
+
+}
+
+
+
+.text-picture{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    gap: 230px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.tptext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tptext h1{
+    font-size: 58px;
+    line-height: 75px;
+    font-weight: 900;
+}
+
+.tptext h5{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+    color:#7C7C7C;
+}
+.dwn{
+    display: flex;
+    gap: 30px;
+}
+
+.tppicture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+.tppicture img{
+    
+    position: relative;
+}
+
+
+.c1{
+    position: absolute;
+
+}
+.c1 img{
+    /* visibility: hidden; */
+    width: 650px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 22%);
+    
+}
+
+
+.c2{
+    position: absolute;
+   
+}
+.c2 img{
+    /* visibility: hidden; */
+    width: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);
+}
+
+
+.c3{
+    position: absolute;
+
+}
+.c3 img{
+    /* visibility: hidden; */
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 55%);
+}
+.c4 img{
+    width: 35px;
+}
+.c4{
+    position: absolute;
+    top: 3000px;
+    right: 80px;
+    
+    
+}
+
+
+.c5{
+    position: absolute;
+    top: 2500px;
+    right: 100px;
+    
+}
+
+.c7 img{
+    width: 35px;
+}
+.c7{
+    position: absolute;
+    top: 3000px;
+    right: 700px;
+    
+    
+}
+
+
+.c6{
+    position: absolute;
+    top: 2500px;
+    right: 650px;
+    
+}
+
+/* first footer */
+
+#bf{
+    padding: 100px 0px;
+    background-color:#E5C643;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.beginfoot h4{
+    font-size: 27px;
+    font-weight: 400;
+
+}
+
+.beginfoot h1{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.beginfoot{
+    color: white ;
+    width: 55%;
+    background-color: 
+    #E5C643;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.allf1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.allf1 h1{
+text-transform: uppercase;
+font-weight: 900;
+}
+.allf1 h5{
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+    line-height: 28px;
+}
+
+.allf1img{
+    display: flex;
+    gap: 13px;
+}
+
+.allf1img img{
+    width: 35px;
+}
+
+
+.foot{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 70px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.footext{
+    display: flex;
+    gap: 150px;
+}
+
+.allf2text h5{
+    margin-bottom: 20px;
+}
